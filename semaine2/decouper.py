@@ -1,21 +1,29 @@
 import re
 
-def decouper_articles(texte):
-    """Découpe un texte de loi propre en une liste d'articles."""
+def decouper_articles(texte, titre=None):
+    """Découpe un texte de loi propre en articles.
+    titre : une phrase du titre de l'arrêté ; tout ce qui est avant est ignoré."""
     articles = []
     actuel = {"article": "Préambule", "texte": ""}
+    commence = titre is None                     # sans titre, on commence tout de suite
 
     for ligne in texte.split("\n"):
-        debut = re.match(r"(Article premier|Art\. \d+)", ligne)   # la ligne commence-t-elle un article ?
-        if debut:
-            articles.append(actuel)                               # on range l'article précédent
-            actuel = {"article": debut.group(1), "texte": ligne}  # et on en commence un nouveau
-        else:
-            actuel["texte"] += " " + ligne                        # sinon, la ligne continue l'article en cours
-        if "sera publié au Journal Officiel" in ligne:
-            break                                                 # fin de l'arrêté : on s'arrête là
+        if not commence:                         # on cherche encore le titre
+            if titre in ligne:
+                commence = True
+                actuel["texte"] = ligne
+            continue
 
-    articles.append(actuel)                                       # on range le tout dernier article
+        debut = re.match(r"(Article premier(?: \(nouveau\)| bis)?|Art\. \d+)", ligne)
+        if debut:
+            articles.append(actuel)
+            actuel = {"article": debut.group(1), "texte": ligne}
+        else:
+            actuel["texte"] += " " + ligne
+        if "sera publié au journal officiel" in ligne.lower():   # .lower() : majuscules ou minuscules
+            break
+
+    articles.append(actuel)
     return articles
 
 if __name__ == "__main__":

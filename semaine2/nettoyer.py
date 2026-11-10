@@ -7,6 +7,9 @@ def est_entete(ligne):
             or "Journal Officiel de la République Tunisienne" in ligne
             or ligne.startswith("décrets")
             or ligne.startswith("t arrêtés")
+            or ligne.startswith("et arrêtés")
+            or ligne.startswith("Tunisienne —")
+            or "Tunisienne —" in ligne
               )
               
 
