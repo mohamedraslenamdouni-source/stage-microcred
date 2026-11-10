@@ -1,0 +1,46 @@
+Note n° 12 de l'Autorité de Contrôle de la Microfinance, Tunis, le 06 janvier 2017.
+Objet : Modalités d'application des dispositions des articles 3 et 16 de l'arrêté du Ministre des Finances du 24 août 2016 relatif à la protection de la clientèle des IMF.
+Le Directeur Général de l'Autorité de Contrôle de la Microfinance,
+Vu le décret-loi n° 2011-117 du 5 novembre 2011 portant organisation de l'activité des institutions de microfinance tel que modifié par la loi n° 2014-46 du 24 juillet 2014,
+Vu le décret n° 2012-2128 du 28 septembre 2012, fixant les modalités de fonctionnement de l'Autorité de Contrôle de la Microfinance,
+Vu l'arrêté du Ministre des Finances du 24 août 2016, relatif à la protection de la clientèle des institutions de microfinance et notamment ses articles 3 et 16,
+Vu les délibérations du conseil d'administration de l'ACM du 26 décembre 2016,
+Porte à la connaissance des institutions de microfinance ce qui suit :
+L'article 3 de l'arrêté du Ministre des Finances du 24 août 2016 susvisé dispose que toute institution de microfinance doit fournir à tout bénéficiaire d'un microfinancement un tableau d'amortissement qui fait partie intégrante du contrat.
+L'article 16 du même arrêté dispose que les IMF doivent communiquer semestriellement à l'Autorité de Contrôle de la Microfinance leur TEG moyen par catégorie de microfinancement, le taux d'intérêt nominal annuel ou la marge bénéficiaire annuelle et les conditions sur les différents produits financiers et non financiers.
+L'objet de la présente note est de fixer :
+- les éléments obligatoires du tableau d'amortissement d'un microfinancement ;
+- le délai de communication à l'ACM du taux d'intérêt nominal annuel ou de la marge bénéficiaire annuelle et des conditions des produits financiers et non financiers et du TEG de chaque catégorie de microfinancement ;
+- les catégories de microfinancements objet d'une communication du TEG.
+Section I - Eléments obligatoires du tableau d'amortissement d'un microfinancement accordé par une IMF :
+Le tableau d'amortissement est un échéancier ou plan de remboursement qui permet notamment de visualiser la part de capital remboursé à une échéance, de connaître le capital restant à rembourser pour solder le microfinancement à une date donnée et de retrouver le coût global du microfinancement.
+Rédigé en arabe et/ou en français, le tableau d'amortissement doit comporter au minimum en caractères lisibles les éléments suivants :
+Des données sur les parties contractantes :
+- L'identité complète du bénéficiaire et de l'IMF ;
+Des données sur le microfinancement :
+- Le type de microfinancement ;
+- Le montant du microfinancement ;
+- La durée du microfinancement ;
+- La fréquence de remboursement ;
+- La période de grâce éventuelle ;
+- Le taux d'intérêt nominal annuel ou la marge bénéficiaire annuelle ;
+- Les commissions et les frais perçus par l'IMF ;
+- Le taux annuel effectif global ;
+- La somme totale des intérêts ou marge bénéficiaire ;
+- La somme totale du montant à rembourser (principal + intérêt ou marge bénéficiaire + commissions et frais).
+Pour chaque échéance, le tableau d'amortissement doit indiquer :
+- Le numéro de l'échéance ;
+- La date de l'échéance ;
+- Le capital restant dû ;
+- Le montant en principal ;
+- Le montant des intérêts ou de la marge bénéficiaire ;
+- Le montant total de l'échéance (principal + intérêt ou marge bénéficiaire + commissions et frais).
+Pour tout rééchelonnement ou réaménagement de microfinancement l'IMF doit fournir au client un nouveau tableau d'amortissement contenant les éléments obligatoires mentionnés ci-dessus.
+Les institutions de microfinance peuvent s'inspirer du modèle du tableau d'amortissement en annexe pour la préparation de leurs propres modèles de tableaux d'amortissement.
+Section II - Délai de communication à l'ACM des conditions des produits financiers et non financiers et du taux annuel effectif global par catégorie de microfinancement :
+Les institutions de microfinance sont invitées à communiquer à l'ACM au plus tard cinq jours après l'expiration de chaque semestre :
+- le taux d'intérêt nominal annuel ou la marge bénéficiaire annuelle et les conditions sur les différents produits financiers et non financiers ;
+- le taux annuel effectif global moyen pondéré pour chaque catégorie de microfinancement.
+Section III - Catégories de microfinancements objet d'une communication du taux annuel effectif global moyen :
+Les catégories de microfinancements sont fixées conformément la liste des "activités contrat" prévue dans le flux "contrat de microcrédit" objet d'une déclaration à la centrale des risques de la microfinance (CRM) : Agriculture ; Elevage ; Commerce ; Pêche ; Artisanat ; Services ; Production ; Education ; Amélioration du logement.
+Annexe - Modèle d'un tableau d'amortissement : données sur les parties contractantes (première partie et deuxième partie) ; données sur le microfinancement (type de microfinancement, montant, durée, période de grâce, fréquence de remboursement, taux d'intérêt nominal annuel ou marge bénéficiaire annuelle, taux annuel effectif global, commissions et frais perçus par l'IMF) ; puis, pour chaque échéance : numéro d'ordre de l'échéance, dates des échéances, capital restant dû, montant en principal (1), montant en intérêts ou marge bénéficiaire (2), commissions et frais (3), montant total de l'échéance (1)+(2)+(3) ; avec une ligne Total.

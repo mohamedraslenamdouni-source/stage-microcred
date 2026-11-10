@@ -35,6 +35,8 @@ def extraire(chemin):
         return extraire_texte(chemin)
     elif extension == ".docx":
         return extraire_texte_docx(chemin)
+    elif extension == ".txt":
+        return Path(chemin).read_text(encoding="utf-8")
     else:
         raise ValueError(f"Format non géré : {extension}")
 

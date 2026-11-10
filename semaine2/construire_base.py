@@ -13,7 +13,11 @@ TITRES = {
 COUPURES = {"arrete_2025_12_26.pdf": " Prénom et nom Grade"} 
 
 base = []
-for fichier in sorted(Path("textes_loi").glob("*.pdf")):
+for fichier in sorted(Path("textes_loi").iterdir()):
+    if fichier.suffix.lower() not in (".pdf", ".txt"):
+        continue
+    if fichier.name in ("note_acm_12.pdf", "note_acm_39.pdf"):
+        continue  # scans : on utilise les .txt à la place:
     texte = nettoyer(extraire(fichier))
     if texte.strip() == "":
         print(f"{fichier.name:28} ignoré (scan sans texte)")

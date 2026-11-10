@@ -14,7 +14,7 @@ def decouper_articles(texte, titre=None):
                 actuel["texte"] = ligne
             continue
 
-        debut = re.match(r"(Article premier(?: \(nouveau\)| bis)?|Art\. \d+)", ligne)
+        debut = re.match(r"(Article premier(?: \(nouveau\)| bis)?|Art\. \d+|Section [IVX]+|Annexe)", ligne)
         if debut:
             articles.append(actuel)
             actuel = {"article": debut.group(1), "texte": ligne}
@@ -24,6 +24,8 @@ def decouper_articles(texte, titre=None):
             break
 
     articles.append(actuel)
+    for a in articles:
+        a["texte"] = a["texte"].strip()
     return articles
 
 if __name__ == "__main__":
